@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.yorman.dad.imc</groupId>
+  <artifactId>IMC</artifactId>
+  <version>0.0.1</version>
+  
+  <properties>
+	<maven.compiler.target>20</maven.compiler.target>
+	<maven.compiler.source>20</maven.compiler.source>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<exec.mainClass>es.yorman.dad.imc.Main</exec.mainClass>
+  </properties>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.openjfx</groupId>
+	 	<artifactId>javafx-controls</artifactId>
+		<version>22-ea+11</version>
+	</dependency>
+  </dependencies> 
+</project>
